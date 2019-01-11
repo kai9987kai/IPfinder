@@ -23,19 +23,19 @@ frame.pack(fill='both', expand='yes')
 
 # position a label on the frame using place(x, y)
 # place(x=0, y=0) would be the upper left frame corner
-label = tk.Label(frame, text="Enter Url Below & Click GET IP "  ,fg="black" )
+label = tk.Label(frame, text="Enter Url Below & Click GET IP "  ,fg="black" , bg = '#F5F5F5' )
 label.place(x=10, y=10)
 label.config(font=("Times", 18))
 
-label = tk.Label(frame, text="URL :  "  ,fg="black" )
+label = tk.Label(frame, text="URL :  "  ,fg="black", bg = '#F5F5F5' )
 label.place(x=10, y=100)
 label.config(font=("Times", 18))
 
-label = tk.Label(frame, text="IP: "  ,fg="black" )
+label = tk.Label(frame, text="IP: "  ,fg="black", bg = '#F5F5F5' )
 label.place(x=10, y=200)
 label.config(font=("Times", 18,'bold'))
 
-ip= tk.Label(frame, text="0.0.0.0"  ,fg="black" )
+ip= tk.Label(frame, text="0.0.0.0"  ,fg="black", bg = '#F5F5F5')
 ip.place(x=150, y=200)
 ip.config(font=("Times", 26))
 
