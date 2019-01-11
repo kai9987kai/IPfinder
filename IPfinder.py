@@ -48,4 +48,6 @@ button = tk.Button(frame, text="GET IP", bg='#456bbc',fg="white",command=lambda:
 button.place(x=10, y=280 , width=180)
 button.config(font=("Times", 16))
 
+root.resizable(False, False)
+root.iconbitmap('favicon.ico')
 root.mainloop()
