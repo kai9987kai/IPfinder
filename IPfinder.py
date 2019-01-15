@@ -16,7 +16,7 @@ def callback3():
     webbrowser.open_new(r"https://autoclicker.webstarts.com/index.html?r=20181122215206")
 
 def clicked():
-    messagebox.showinfo('CONTACT', 'Email: kai9987kai@gmail.com')
+    messagebox.showinfo('CONTACT', 'Email-One: kai9987kai@gmail.com \nEmail-Two:kai.piper@aol.co.uk')
 
 def getIp(input_url):
     ip_info = socket.gethostbyname(input_url)
