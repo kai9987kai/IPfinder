@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import *
 import webbrowser
 from tkinter import messagebox
+from tkinter import ttk
 def callback():
     webbrowser.open_new(r"https://github.com/kai9987kai/IPfinder/wiki")
 
